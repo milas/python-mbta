@@ -1,0 +1,25 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "stop",
+      "relationships": {
+        "parent_station": {
+          "data": null
+        }
+      },
+      "links": {
+        "self": "/stops/5233"
+      },
+      "id": "5233",
+      "attributes": {
+        "wheelchair_boarding": 0,
+        "name": "Washington St opp Burnett St",
+        "longitude": -71.111044,
+        "latitude": 42.302682
+      }
+    }
+  ]
+}

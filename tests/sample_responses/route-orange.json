@@ -1,0 +1,23 @@
+{
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": {
+    "type": "route",
+    "links": {
+      "self": "/routes/Orange"
+    },
+    "id": "Orange",
+    "attributes": {
+      "type": 1,
+      "sort_order": 2,
+      "short_name": "",
+      "long_name": "Orange Line",
+      "direction_names": [
+        "Southbound",
+        "Northbound"
+      ],
+      "description": "Rapid Transit"
+    }
+  }
+}

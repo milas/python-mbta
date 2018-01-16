@@ -1,0 +1,117 @@
+{
+  "links": {
+    "next": "https://api-v3.mbta.com/predictions/?filter[direction_id]=1&filter[route]=Orange&filter[stop]=place-bbsta&page[limit]=3&page[offset]=3",
+    "last": "https://api-v3.mbta.com/predictions/?filter[direction_id]=1&filter[route]=Orange&filter[stop]=place-bbsta&page[limit]=3&page[offset]=6",
+    "first": "https://api-v3.mbta.com/predictions/?filter[direction_id]=1&filter[route]=Orange&filter[stop]=place-bbsta&page[limit]=3&page[offset]=0"
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "type": "prediction",
+      "relationships": {
+        "trip": {
+          "data": {
+            "type": "trip",
+            "id": "35454166"
+          }
+        },
+        "stop": {
+          "data": {
+            "type": "stop",
+            "id": "70015"
+          }
+        },
+        "schedule": {},
+        "route": {
+          "data": {
+            "type": "route",
+            "id": "Orange"
+          }
+        },
+        "alerts": {}
+      },
+      "id": "prediction-35454166-70015-70",
+      "attributes": {
+        "track": null,
+        "stop_sequence": 70,
+        "status": null,
+        "schedule_relationship": null,
+        "direction_id": 1,
+        "departure_time": "2018-01-15T16:44:09-05:00",
+        "arrival_time": "2018-01-15T16:44:09-05:00"
+      }
+    },
+    {
+      "type": "prediction",
+      "relationships": {
+        "trip": {
+          "data": {
+            "type": "trip",
+            "id": "35454169"
+          }
+        },
+        "stop": {
+          "data": {
+            "type": "stop",
+            "id": "70015"
+          }
+        },
+        "schedule": {},
+        "route": {
+          "data": {
+            "type": "route",
+            "id": "Orange"
+          }
+        },
+        "alerts": {}
+      },
+      "id": "prediction-35454169-70015-70",
+      "attributes": {
+        "track": null,
+        "stop_sequence": 70,
+        "status": null,
+        "schedule_relationship": null,
+        "direction_id": 1,
+        "departure_time": "2018-01-15T16:51:03-05:00",
+        "arrival_time": "2018-01-15T16:51:03-05:00"
+      }
+    },
+    {
+      "type": "prediction",
+      "relationships": {
+        "trip": {
+          "data": {
+            "type": "trip",
+            "id": "35454172"
+          }
+        },
+        "stop": {
+          "data": {
+            "type": "stop",
+            "id": "70015"
+          }
+        },
+        "schedule": {},
+        "route": {
+          "data": {
+            "type": "route",
+            "id": "Orange"
+          }
+        },
+        "alerts": {}
+      },
+      "id": "prediction-35454172-70015-70",
+      "attributes": {
+        "track": null,
+        "stop_sequence": 70,
+        "status": null,
+        "schedule_relationship": null,
+        "direction_id": 1,
+        "departure_time": "2018-01-15T16:56:27-05:00",
+        "arrival_time": "2018-01-15T16:56:27-05:00"
+      }
+    }
+  ]
+}
