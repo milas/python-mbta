@@ -18,7 +18,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Software Development :: Libraries'
     ],
-    setup_requires=[
+    install_requires=[
         'iso8601',
         'jsonapi-requests',
         'requests'
