@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='mbta',
     version='0.1',
-    packages=['mbta'],
+    packages=find_packages(exclude=['tests']),
     url='https://github.com/milas/python-mbta',
     license='MIT',
     author='Milas Bowman',
